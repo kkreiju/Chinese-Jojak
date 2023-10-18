@@ -68,7 +68,7 @@ public class YearDatabase {
 
    void BirthDate() {
       try {
-         Thread.sleep(500);
+         Thread.sleep(200);
          System.out.print("Enter Birth Date: ");
          birthDate = sc.nextInt();
          if (birthMonth == 1 || birthMonth == 3 || birthMonth == 5 || birthMonth == 7 || birthMonth == 8
@@ -149,6 +149,6 @@ public class YearDatabase {
       int minNum = 0;
       int randomNum = (int)(Math.random() * (maxNum - minNum + 1)) + minNum;
       String[] randomReadings = {"your wallet will become abundant in cash.", "you will meet the reaper.", "someone hates you.", "you will recieve a gift from someone.", "your destiny will be good.", "there are more opportunities to come onto your life.", "you will pass your exams."};
-      System.out.println("My readings is " + randomReadings[randomNum]);
+      System.out.println("Your readings is " + randomReadings[randomNum]);
    }
 }
